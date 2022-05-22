@@ -1,4 +1,6 @@
 
+# Understanding Git and GitHub
+
 I have seen many people (beginners) asking,
 
 > what is the difference between the Git and GitHub?
@@ -85,18 +87,22 @@ Note: This is the example of Windows 10. For MAC or Linux, options would be diff
 Once you have installed the Git, you need to configure your username and email into it. This is an important step because whenever you take a *snapshot* of your files or I can say, whenever you commit changes to your files, your name and email are bound to those changes as we will see those changes in the logs in the article.
 
 ### Configuration Syntax
-git config --global user.name <username>
-git config --global user.email <email>
+
+`git config --global user.name <username>`
+
+`git config --global user.email <email>`
 
 ### Configuration Example
-git config --global user.name '‘'Shameel Uddin'
-git config --global user.email 'shameel@hasabtech.com'
+`git config --global user.name '‘'Shameel Uddin'`
+
+`git config --global user.email 'shameel@hasabtech.com'`
 
 ### Checking Configuration
-git config --get user.name
-git config --get user.email
-git config –list
+`git config --get user.name`
 
+`git config --get user.email`
+
+`git config –list`
 
 ## Git - Initialization 
 
@@ -117,6 +123,8 @@ Open Git GUI in the folder/directory you are present in and perform following op
 
 ### .git
 In both cases, you should see a folder/directory like this:
+
+
 ![".git"](./images/.git.png)
 
 ## Working Directory
@@ -139,7 +147,7 @@ Every file in the working directory has 2 states:
   - Modified
   - Staged
 
-Git only cares about Tracked files and leave untracked files out of its jurisdictions.
+Git only cares about Tracked files and leave untracked files out of its jurisdiction.
 
 Unmodified means that the files are not changed at all.
 Modified file means that the files have been changed
