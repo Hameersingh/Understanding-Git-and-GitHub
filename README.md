@@ -187,7 +187,7 @@ To remove all files, run `git reset HEAD -- .`
 
 If you are aware of wildcard masks, then you can use to select multiple files of your choice.
 
-## Statis of Files
+## Status of Files
 `git status`
 
 This command shows the current state of the working directory and staging area. 
