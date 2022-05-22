@@ -93,7 +93,7 @@ Once you have installed the Git, you need to configure your username and email i
 `git config --global user.email <email>`
 
 ### Configuration Example
-`git config --global user.name ''Shameel Uddin'`
+`git config --global user.name 'Shameel Uddin'`
 
 `git config --global user.email 'shameel@hasabtech.com'`
 
@@ -102,7 +102,7 @@ Once you have installed the Git, you need to configure your username and email i
 
 `git config --get user.email`
 
-`git config –list`
+`git config --list`
 
 ## Git - Initialization 
 
