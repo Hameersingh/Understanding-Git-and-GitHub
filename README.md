@@ -1,11 +1,7 @@
 
 # Understanding Git and GitHub
 
-I have seen many people (beginners) asking,
-
 > what is the difference between the Git and GitHub?
-
-So, I think, this needs to be clarified in a proper post.
 
 Generally, the ones, asking these questions, are not much aware of Git and the immense need of this tool, especially in the field of programming, whether it be development or some other application.
 
